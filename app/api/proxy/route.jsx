@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 export const GET = async (req) => {
-  const url = 'https://assuredpsychology.com'; // The default testing website URL
+  const url = 'https://activeapproach.ca'; // The default testing website URL
   try {
     const response = await axios.get(url, { responseType: 'text' });
     const modifiedContent = response.data.replace(
